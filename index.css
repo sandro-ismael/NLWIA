@@ -1,0 +1,29 @@
+.wrapper {
+  width: 534px;
+  display: flex;
+  align-items: center;
+}
+
+#content {
+  max-width: 476px;
+}
+
+#copy-button {
+  background-color: #8257e5;
+  display: none;
+  height: 30px;
+  width: 30px;
+  margin: 11px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color .5s;
+}
+
+#copy-button:hover{
+  background-color: #633bbc;
+}
+
+#copy-button > i {
+  color: #fff;
+}
